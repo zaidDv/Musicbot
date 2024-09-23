@@ -12,9 +12,9 @@ Welcome to the **Music Bot**! Experience an amazing way to enjoy music while cha
 ## 📲 Connect with Us!
 Stay updated and get support through our channels:
 
-- [Telegram]([https://t.me/your_channel](https://t.me/fzfffzz)) <!-- Replace with your Telegram link -->
+- [Telegram Channel](https://t.me/fzfffzz) <!-- Your channel link -->
   
-![Telegram](https://upload.wikimedia.org/wikipedia/commons/6/6b/Telegram_logo.svg)
+![Telegram](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png)
 
 ## 🌈 Join Our Community
 Join us and share your feedback! Together, let's make this bot even better. 
