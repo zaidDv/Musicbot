@@ -1,1 +1,1 @@
-# Musicbot
+# AMusic

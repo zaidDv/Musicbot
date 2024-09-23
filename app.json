@@ -1,0 +1,101 @@
+{
+    "name": "『 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧 』",
+    "description": "〔 سـورس ميوزك لارين  𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧 \n افضـل سـورس لتشغيل الصوتيات في المكالمه  › تحديثـات متواصله › 〔 حصريـاً 〕\n - مطـور السـورس : 𝐋𝐚𝐫𝐢𝐧\n قناة 🧚‍♀️ : https://t.me/SOURCELARIN",
+    "logo": "https://graph.org/file/57036e277059ef8608dd3.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "ze",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram",
+    "python",
+    "telethon"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "ضع هنا ايبي ايدي او اتركه كما هو.",
+        "value": "20036317",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ضع هنا ايبي هاش او اتركه كما هو.",
+        "value": "986cb4ba434870a62fe96da3b5f6d411",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ضع هنا تكون البوت الذي صنعته من @BotFather.",
+        "value": "",
+        "required": true
+      },
+      "BOT_NAME": {
+        "description": "اسم البوت بالعربي.",
+        "value": "",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "رابط صوره start او اتركه كما هو.",
+        "value": "https://graph.org/file/57036e277059ef8608dd3.jpg",
+        "required": true
+      },
+      "CHANNEL_NAME": {
+        "description": "اسم قناتك.",
+        "value": "• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧",
+        "required": true
+      },
+      "CHANNEL_LINK": {
+        "description": "رابط قناتك.",
+        "value": "https://t.me/eer_5o",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "اضف ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت او كما هوا",
+        "value": "7023939505",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "ضع هنا كود بايروجرام الحساب المساعد استخرجه من هذا البوت @t66bot",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": 
+       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
+        "value": "",
+        "required": false
+       },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "اذا تريد ان يغادر الحساب المساعد بعد انتهاء المحادثه الصوتيه اكتب True ..",
+        "value": "",
+        "required": false
+        },
+      "MONGO_DB_URI": {
+        "description": "استضافتك من موقع https://cloud.mongodb.com ..",
+        "value": "",
+        "required": true
+      },
+      "LOGGER_ID": {
+        "description": "ادخــل ايــدي مجمـوعــة السجــل بجـانب الرقـم -100 فـي المربـع〔 سوي مجموعة جديدة وروح لاعدادات المجموعة وخلي السجل ظاهر .. بعدها ارفع البوت والحساب المساعد إشـراف وافتـح المكالمه بعدها جيب ايدي المجموعة لهنـا 〕..",
+        "value": "-1002034990746",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
